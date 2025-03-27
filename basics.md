@@ -41,7 +41,7 @@ References:
     * There are conflicting changes in multiple commits.
 * We have to manually resolve the conflicts. If you want to abort the merge use `git merge --abort`
 * If you want to change the message of previous commit use `git commit --amend` command. This is only used to change the latest commit message.
-* If we want to change the commit message of even before commit then we have to traverse to the commit before of that. (suppose we have to change message of 3 commits back we have to traverse to 4 commits back) `git cat-file -p HEAD~2` `git rebase -i HEAD~2`
+* If we want to change the commit message of even before commit then we have to traverse to the commit before of that. (suppose we have to change 5th commit we have to go one step back to 5th commit i.e. 6th commit) `git cat-file -p HEAD~2` `git rebase -i HEAD~2`
 * interactive rebase is used to change the commit history `git rebase -i `
 we have some commands here to change the history 
 * p, pick <commit> = use commit
