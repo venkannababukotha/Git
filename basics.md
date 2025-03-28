@@ -14,6 +14,7 @@
 * Some git commands and their uses.
 * git add fileName -- to add the file to staging area
 * git remote set-url origin https://venkannababukotha@https://github.com/venkannababukotha/Git.git -- to set the remote repository URL 
+* git restore --staged <fileName> -- to bring changes from staging area to working directory
 
 # Excercie-1
 ============
@@ -34,6 +35,7 @@ References:
 * https://www.atlassian.com/git/tutorials/using-branches/git-merge
 * https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 * https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
 
 * Merge conficts:A merge conflict occurs when Git cannot automatically combine changes from different branches. This happens when:
     * Two branches modify the same part of a file.
